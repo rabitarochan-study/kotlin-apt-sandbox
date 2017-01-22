@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-apt-sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-apt-sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main.iml" group="sandbox-main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main_main.iml" group="sandbox-main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-main/sandbox-main_test.iml" group="sandbox-main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor.iml" group="sandbox-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor_main.iml" group="sandbox-processor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox-processor/sandbox-processor_test.iml" group="sandbox-processor" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+buildscript {
+    ext.kotlin_version = '1.0.6'
+    ext.doma_veresion = '2.14.0'
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+subprojects {
+
+    apply plugin: 'kotlin'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+}
+
+project(':sandbox-processor') {
+
+    group = 'com.github.rabitarochan'
+    version = '0.1-SNAPSHOT'
+
+    apply plugin: 'maven'
+
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                repository(url: "file:${System.getProperty('user.home')}/.m2/repository")
+            }
+        }
+    }
+
+}
+ 
+project(':sandbox-main') {
+
+    apply plugin: 'kotlin-kapt'
+    
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        //compile project(':sandbox-processor')
+        compile 'com.github.rabitarochan:sandbox-processor:0.1-SNAPSHOT'
+        kapt 'com.github.rabitarochan:sandbox-processor:0.1-SNAPSHOT'
+        
+        /* Doma 2 */
+
+    }
+
+}

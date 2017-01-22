@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../takarabako" value="1430234044000" />
+        <entry key="$USER_HOME$/project/play2-hands-on" value="1441458743000" />
+        <entry key="$USER_HOME$/project/spetstore-clean-architecture" value="1441123934000" />
+        <entry key="$USER_HOME$/project/takarabako" value="1442673814000" />
+        <entry key="$PROJECT_DIR$/../takarabako" value="1430234044000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="maximumHeapSize" value="1024" />
+    <option name="vmParameters" value="-XX:MaxPermSize=512M" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
